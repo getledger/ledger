@@ -1,0 +1,19 @@
+[data-icon='ledger'] {
+  path {
+    fill: #004dd0;
+  }
+  .path-1,
+  .path-13 {
+    fill: #2d95fd;
+  }
+}
+
+.ledger--alt {
+  svg {
+    path,
+    .path-13,
+    .path-1 {
+      fill: #fff;
+    }
+  }
+}
