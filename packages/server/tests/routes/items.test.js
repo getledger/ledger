@@ -623,7 +623,7 @@ describe('routes: `/items`', () => {
     });
 
     it('Should retrieve ordered items based on the given `column_sort_order` and `sort_order` query.', async () => {
-      await tenantFactory.create('item', { name: 'mohamed' });
+      await tenantFactory.create('item', { name: 'ahmed' });
       await tenantFactory.create('item', { name: 'mohamed' });
 
       const res = await request()
@@ -638,7 +638,7 @@ describe('routes: `/items`', () => {
 
       expect(res.body.items.results.length).equals(2);
       expect(res.body.items.results[0].name).equals('mohamed');
-      expect(res.body.items.results[1].name).equals('mohamed');
+      expect(res.body.items.results[1].name).equals('ahmed');
     });
 
     it('Should retrieve pagination meta of items list.', async () => {

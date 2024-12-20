@@ -1,4 +1,4 @@
-FROM getledger/server:latest as build
+FROM getledger/server:develop as build
 
 ARG DB_HOST= \
   DB_USER= \

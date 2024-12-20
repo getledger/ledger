@@ -1,8 +1,9 @@
-# This workflow will build a docker container, publish it to Github Registry.
 name: Build and Deploy Docker Container
+
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - develop
   workflow_dispatch:
 
 env:

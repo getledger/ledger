@@ -54,6 +54,8 @@ pnpm install
 - Run all required docker containers in the development, we already configured all containers under `docker-compose.yml`.
 
 ```
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+
 docker-compose up -d
 ```
 

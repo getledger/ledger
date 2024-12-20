@@ -355,7 +355,7 @@ describe('routes: /accounts/', () => {
     it('Should retrieve bad request when `filter_roles.*.field_key` not found in accounts resource.', async () => {
       const resource = await tenantFactory.create('resource', { name: 'accounts' });
 
-      const account1 = await tenantFactory.create('account', { name: 'mohamed' });
+      const account1 = await tenantFactory.create('account', { name: 'ahmed' });
       const account2 = await tenantFactory.create('account');
       const account3 = await tenantFactory.create('account');
 
@@ -368,12 +368,12 @@ describe('routes: /accounts/', () => {
             condition: 'AND',
             field_key: 'not_found',
             comparator: 'equals',
-            value: 'mohamed',
+            value: 'ahmed',
           }, { 
             condition: 'AND',
             field_key: 'mybe_found',
             comparator: 'equals',
-            value: 'mohamed',
+            value: 'ahmed',
           }]),
         });
 
@@ -399,7 +399,7 @@ describe('routes: /accounts/', () => {
       const accountType = await tenantFactory.create('account_type');
 
       const account1 = await tenantFactory.create('account', {
-        name: 'mohamed',
+        name: 'ahmed',
         account_type_id: accountType.id
       });
       const account2 = await tenantFactory.create('account');
@@ -419,7 +419,7 @@ describe('routes: /accounts/', () => {
             condition: '&&',
             field_key: 'name',
             comparator: 'equals',
-            value: 'mohamed', 
+            value: 'ahmed', 
           }]),
         });
 
@@ -433,7 +433,7 @@ describe('routes: /accounts/', () => {
         resource_id: resource.id,
       });
 
-      const account1 = await tenantFactory.create('account', { name: 'mohamed', description: 'here' });
+      const account1 = await tenantFactory.create('account', { name: 'ahmed', description: 'here' });
       const account2 = await tenantFactory.create('account');
       const account3 = await tenantFactory.create('account');
 
@@ -466,7 +466,7 @@ describe('routes: /accounts/', () => {
         resource_id: resource.id,
       });
 
-      const account1 = await tenantFactory.create('account', { name: 'mohamed', description: 'target' });
+      const account1 = await tenantFactory.create('account', { name: 'ahmed', description: 'target' });
       const account2 = await tenantFactory.create('account', { description: 'target' });
       const account3 = await tenantFactory.create('account');
 
@@ -484,14 +484,14 @@ describe('routes: /accounts/', () => {
             condition: '||',
             field_key: resourceCodeField.key,
             comparator: 'equals',
-            value: 'mohamed',
+            value: 'ahmed',
           }]),
         });
 
       expect(res.body.accounts.length).equals(2);
       expect(res.body.accounts[0].description).equals('target');
       expect(res.body.accounts[1].description).equals('target');
-      expect(res.body.accounts[0].name).equals('mohamed');
+      expect(res.body.accounts[0].name).equals('ahmed');
     });
 
     it('Should retrieve filtered accounts from custom view and filter roles.', async () => {
@@ -505,9 +505,9 @@ describe('routes: /accounts/', () => {
 
       const accountType = await tenantFactory.create('account_type', { name: 'type-name' });
 
-      const account1 = await tenantFactory.create('account', { name: 'mohamed-1' });
-      const account2 = await tenantFactory.create('account', { name: 'mohamed-2', account_type_id: accountType.id, description: 'target' });
-      const account3 = await tenantFactory.create('account', { name: 'mohamed-3' });
+      const account1 = await tenantFactory.create('account', { name: 'ahmed-1' });
+      const account2 = await tenantFactory.create('account', { name: 'ahmed-2', account_type_id: accountType.id, description: 'target' });
+      const account3 = await tenantFactory.create('account', { name: 'ahmed-3' });
 
       const accountsView = await tenantFactory.create('view', {
         name: 'Accounts View',
@@ -537,7 +537,7 @@ describe('routes: /accounts/', () => {
         });
 
       expect(res.body.accounts.length).equals(1);
-      expect(res.body.accounts[0].name).equals('mohamed-2');
+      expect(res.body.accounts[0].name).equals('ahmed-2');
       expect(res.body.accounts[0].description).equals('target');
     });
 

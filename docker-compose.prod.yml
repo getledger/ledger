@@ -20,14 +20,14 @@ services:
 
   webapp:
     container_name: ledger-webapp
-    image: getledger/webapp:latest
+    image: getledger/webapp:develop
     restart: on-failure
     networks:
       - ledger_network
 
   server:
     container_name: ledger-server
-    image: getledger/server:latest
+    image: getledger/server:develop
     expose:
       - '3000'
     links:
