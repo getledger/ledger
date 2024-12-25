@@ -28,20 +28,20 @@ const ContentTabItemRoot = styled.button<ContentTabItemRootProps>`
   ${(props) =>
     props.active &&
     `
-      border-color: #1552c8;
-      box-shadow: 0 0 0 0.25px #1552c8;
+      border-color: #00a99d;
+      box-shadow: 0 0 0 0.25px #00a99d;
 
       ${ContentTabTitle} {
-        color: #1552c8;
+        color: #00a99d;
         font-weight: 500;
       }
       ${ContentTabDesc} {
-        color: #1552c8;        
+        color: #00a99d;        
       }
     `}
   &:hover,
   &:active {
-    border-color: #1552c8;
+    border-color: #00a99d;
   }
 `;
 const ContentTabTitle = styled('h3')`
