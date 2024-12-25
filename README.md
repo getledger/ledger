@@ -1,8 +1,8 @@
 
 
-# What's Ledger?
+# Ledger
 
-Ledger is a smart and open-source accounting and inventory software, Ledger keeps all business finances in right place and automates accounting processes to give the business powerful and intelligent financial statements and reports to help in making decisions.
+Ledger is a smart and accounting and inventory software, Ledger keeps all business finances in right place and automates accounting processes to give the business powerful and intelligent financial statements and reports to help in making decisions.
 
 # Getting Started
 
@@ -10,7 +10,7 @@ We've got several options on dev and prod depending on your need to get started 
 
 ## Self-hosted 
 
-Ledger is available open-source under AGPL license. You can host it on your own servers using Docker.
+You can host Ledger on your own servers using Docker.
 
 ### Docker
 
@@ -28,12 +28,6 @@ To get started locally, we have a [guide to help you](https://github.com/digitra
 - This will open and configure the workspace in your browser with all the necessary dependencies.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/new/#https://github.com/digitranslab/ledger)
-
-## Headless Accounting
-
-You can integrate Ledger API with your system to organize your transactions in double-entry system to get the best financial reports.
-
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/ledger/workspace/ledger-api)
 
 # Resources
 
