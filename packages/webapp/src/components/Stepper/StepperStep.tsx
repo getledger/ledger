@@ -74,7 +74,7 @@ const StepIcon = styled.span`
   border-radius: 24px;
   text-align: center;
   background-color: ${(props) =>
-    props.isCompleted || props.isActive ? 'rgb(0, 82, 204)' : '#9e9e9e'};
+    props.isCompleted || props.isActive ? 'rgb(0, 169, 157)' : '#9e9e9e'};
   color: #fff;
   margin: auto;
   font-size: 12px;
@@ -82,13 +82,13 @@ const StepIcon = styled.span`
 
 const StepTitle = styled.div`
   color: ${(props) =>
-    props.isCompleted || props.isActive ? 'rgb(0, 82, 204)' : '#738091'};
+    props.isCompleted || props.isActive ? 'rgb(0, 169, 157)' : '#738091'};
 `;
 const StepDescription = styled.div`
   font-size: 12px;
   margin-top: 10px;
   color: ${(props) =>
-    props.isCompleted || props.isActive ? 'rgb(0, 82, 204)' : '#738091'};
+    props.isCompleted || props.isActive ? 'rgb(0, 169, 157)' : '#738091'};
 `;
 
 const StepIconWrap = styled.div`

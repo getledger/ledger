@@ -49,7 +49,7 @@ export const PaymentReceivedEmailTemplate: React.FC<
   companyLogoUri,
 
   // # Colors
-  primaryColor = 'rgb(0, 82, 204)',
+  primaryColor = 'rgb(0, 169, 157)',
 
   // # Payment #
   paymentNumberLabel = 'Payment # {paymentNumber}',

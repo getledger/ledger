@@ -1,7 +1,7 @@
 export const defaultPaymentReceiptMailProps = {
   companyName: 'Company Name',
   companyLogoUri: 'https://via.placeholder.com/150',
-  primaryColor: 'rgb(0, 82, 204)',
+  primaryColor: 'rgb(0, 169, 157)',
   paymentDate: '2021-01-01',
   paymentDateLabel: 'Payment Date',
   total: '100.00',

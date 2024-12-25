@@ -59,7 +59,7 @@ export function InvoiceMailReceipt({
   companyLogoUri,
 
   // # Colors
-  primaryColor = 'rgb(0, 82, 204)',
+  primaryColor = 'rgb(0, 169, 157)',
 
   // # Due date
   dueDate,

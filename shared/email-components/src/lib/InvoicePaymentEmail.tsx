@@ -74,7 +74,7 @@ export const InvoicePaymentEmail: React.FC<
   companyLogoUri,
 
   // # Colors
-  primaryColor = 'rgb(0, 82, 204)',
+  primaryColor = 'rgb(0, 169, 157)',
 
   // # Invoice amount
   invoiceAmount,
@@ -269,7 +269,7 @@ const viewInvoiceButtonStyle: CSSProperties = {
   fontSize: 16,
   padding: '10px 15px',
   lineHeight: '1',
-  backgroundColor: 'rgb(0, 82, 204)',
+  backgroundColor: 'rgb(0, 169, 157)',
   color: '#fff',
   borderRadius: '5px',
 };

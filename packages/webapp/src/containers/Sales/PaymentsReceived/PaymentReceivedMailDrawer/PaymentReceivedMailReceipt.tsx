@@ -42,7 +42,7 @@ export function PaymentReceivedMailReceipt({
   companyLogoUri,
 
   // # Colors
-  primaryColor = 'rgb(0, 82, 204)',
+  primaryColor = 'rgb(0, 169, 157)',
 
   // # Payment date
   paymentDate,
