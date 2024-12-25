@@ -11,7 +11,7 @@
 
   &.dropzoneAccept {
     border-color: rgb(0, 169, 157);
-    background: rgba(0, 82, 204, 0.05);
+    background: rgba(0, 169, 157, 0.05);
   }
   &.dropzoneReject {
     border-color: #AC2F33;
