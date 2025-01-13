@@ -24,8 +24,9 @@ import {
 import { useEstimateFormContext } from './EstimateFormProvider';
 
 /**
- * Estimate form topbar .
- * @returns {JSX.Element}
+ * Estimate form topbar component.
+ * Displays navigation options for branches and warehouses.
+ * @returns {JSX.Element} The rendered component.
  */
 export default function EstimtaeFormTopBar() {
   // Features guard.

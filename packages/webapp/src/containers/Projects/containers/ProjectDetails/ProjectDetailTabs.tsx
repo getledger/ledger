@@ -1,5 +1,4 @@
-// @ts-nocheck
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import intl from 'react-intl-universal';
 import { Tabs, Tab } from '@blueprintjs/core';
@@ -10,16 +9,19 @@ import ProjectSalesTable from './ProjectSalesTable';
 
 /**
  * Project detail tabs.
- * @returns
+ * @returns {JSX.Element}
  */
 export default function ProjectDetailTabs() {
+  const [activeTab, setActiveTab] = useState('tasks');
+
   return (
     <ProjectTabsContent>
       <Tabs
-        animate={true}
-        large={true}
-        renderActiveTabPanelOnly={true}
-        defaultSelectedTabId={'tasks'}
+        animate
+        large
+        renderActiveTabPanelOnly
+        selectedTabId={activeTab}
+        onChange={(newTabId) => setActiveTab(newTabId)}
       >
         <Tab
           id="tasks"
