@@ -1,0 +1,17 @@
+.sidebar {
+    // existing styles...
+
+    .menu-item {
+        cursor: pointer;
+        position: relative;
+
+        &.active .submenu {
+            display: block; /* Show submenu when active */
+        }
+    }
+
+    .submenu {
+        display: none; /* Hide submenu by default */
+        padding-left: 20px; /* Indent submenu items */
+    }
+} 
