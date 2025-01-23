@@ -4,7 +4,7 @@
   position: relative;
 
   &.visible::before{
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(149, 193, 245, 0.75);
     z-index: 2;
   }
   &::before{

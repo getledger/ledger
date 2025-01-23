@@ -1,0 +1,36 @@
+.dialog--reconcile-vendor-credit-form {
+  width: 850px;
+}
+.dialog--reconcile-vendor-credit-form .ledger-datatable .table {
+  border: 1px solid #d1dee2;
+  min-width: auto;
+}
+.dialog--reconcile-vendor-credit-form .ledger-datatable .table .tbody,
+.dialog--reconcile-vendor-credit-form .ledger-datatable .table .tbody-inner {
+  height: auto;
+  scrollbar-width: none;
+}
+.dialog--reconcile-vendor-credit-form .ledger-datatable .table .tbody::-webkit-scrollbar,
+.dialog--reconcile-vendor-credit-form .ledger-datatable .table .tbody-inner::-webkit-scrollbar {
+  display: none;
+}
+.dialog--reconcile-vendor-credit-form .ledger-datatable .table .tbody .bp4-form-group {
+  margin-bottom: 0;
+}
+.dialog--reconcile-vendor-credit-form .ledger-datatable .table .tbody .bp4-form-group:not(.bp4-intent-danger) .bp4-input {
+  border: 1px solid #d0dfe2;
+}
+.dialog--reconcile-vendor-credit-form .ledger-datatable .table .tbody .bp4-form-group:not(.bp4-intent-danger) .bp4-input:focus {
+  box-shadow: 0 0 0 1px #348cf6;
+  border-color: #348cf6;
+}
+.dialog--reconcile-vendor-credit-form .bp4-callout {
+  font-size: 14px;
+}
+.dialog--reconcile-vendor-credit-form .bp4-dialog-footer {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=ReconcileVendorCreditForm.css.map */

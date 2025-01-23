@@ -85,7 +85,7 @@ const DatatableEditableRoot = styled.div`
           padding-right: 14px;
 
           &:focus {
-            box-shadow: 0 0 0 2px #116cd0;
+            box-shadow: 0 0 0 2px #348cf6;
           }
         }
         .form-group--select-list .bp4-button {

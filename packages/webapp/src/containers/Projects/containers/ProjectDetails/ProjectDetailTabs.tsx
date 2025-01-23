@@ -66,7 +66,7 @@ const ProjectTabsContent = styled.div`
 
         &[aria-selected='true'],
         &:not([aria-disabled='true']):hover {
-          color: #0052cc;
+          color: #348cf6;
         }
       }
       .bp4-tab-indicator-wrapper .bp4-tab-indicator {

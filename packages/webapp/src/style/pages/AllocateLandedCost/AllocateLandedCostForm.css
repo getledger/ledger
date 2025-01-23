@@ -1,0 +1,48 @@
+.dialog--allocate-landed-cost-form {
+  width: 700px;
+}
+.dialog--allocate-landed-cost-form .bp4-dialog-body .bp4-form-group {
+  margin-bottom: 18px;
+}
+.dialog--allocate-landed-cost-form .bp4-dialog-body .bp4-form-group.bp4-inline .bp4-label {
+  min-width: 165px;
+}
+.dialog--allocate-landed-cost-form .bp4-dialog-body .bp4-form-group.bp4-inline .bp4-form-content {
+  width: 300px;
+}
+.dialog--allocate-landed-cost-form .bp4-dialog-body .bp4-form-group.bp4-inline:not(.dialog--loading) .bp4-dialog-body {
+  margin-bottom: 30px;
+}
+.dialog--allocate-landed-cost-form .bp4-dialog-footer {
+  padding-top: 10px;
+}
+.dialog--allocate-landed-cost-form .ledger-datatable .table {
+  border: 1px solid #d1dee2;
+  min-width: auto;
+}
+.dialog--allocate-landed-cost-form .ledger-datatable .table .tbody,
+.dialog--allocate-landed-cost-form .ledger-datatable .table .tbody-inner {
+  height: auto;
+  scrollbar-width: none;
+}
+.dialog--allocate-landed-cost-form .ledger-datatable .table .tbody::-webkit-scrollbar,
+.dialog--allocate-landed-cost-form .ledger-datatable .table .tbody-inner::-webkit-scrollbar {
+  display: none;
+}
+.dialog--allocate-landed-cost-form .ledger-datatable .table .tbody .tr .td {
+  padding: 0.4rem;
+  margin-left: -1px;
+  border-left: 1px solid #ececec;
+}
+.dialog--allocate-landed-cost-form .ledger-datatable .table .tbody .bp4-form-group {
+  margin-bottom: 0;
+}
+.dialog--allocate-landed-cost-form .ledger-datatable .table .tbody .bp4-form-group:not(.bp4-intent-danger) .bp4-input {
+  border: 1px solid #d0dfe2;
+}
+.dialog--allocate-landed-cost-form .ledger-datatable .table .tbody .bp4-form-group:not(.bp4-intent-danger) .bp4-input:focus {
+  box-shadow: 0 0 0 1px #348cf6;
+  border-color: #348cf6;
+}
+
+/*# sourceMappingURL=AllocateLandedCostForm.css.map */

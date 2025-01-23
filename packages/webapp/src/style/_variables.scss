@@ -6,9 +6,9 @@ $ns: bp4;
 $pt-popover-box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.02),
   0 2px 4px rgba(16, 22, 26, 0.1), 0 8px 24px rgba(16, 22, 26, 0.1);
 
-$blue1: #00a99d;
-$blue2: #00a898;
-$blue3: rgb(0, 169, 157);
+$blue1: #348cf6;
+$blue2: #348cf6;
+$blue3: rgb(52, 140, 246);
 $pt-link-color: $blue3;
 $pt-intent-primary: $blue1;
 $menu-item-color-hover: $light-gray4;
@@ -30,17 +30,17 @@ $button-background-color-disabled: #e9ecef !default;
 $button-background-color: #e6effb !default;
 $button-background-color-hover: #cfdcee !default;
 
-$sidebar-background: #01115e;
+$sidebar-background: #348cf6;
 $sidebar-text-color: #fff;
 $sidebar-width: 100%;
-$sidebar-menu-item-color: rgb(255, 255, 255);
-$sidebar-menu-item-color-active: rgb(255, 255, 255);
+$sidebar-menu-item-color: rgb(149, 193, 245);
+$sidebar-menu-item-color-active: rgb(149, 193, 245);
 $sidebar-popover-submenu-bg: rgb(1, 20, 62);
-$sidebar-menu-label-color: rgba(255, 255, 255, 0.5);
-$sidebar-submenu-item-color: rgba(255, 255, 255, 0.85);
-$sidebar-submenu-item-hover-color: rgb(255, 255, 255);
+$sidebar-menu-label-color: rgba(149, 193, 245, 0.5);
+$sidebar-submenu-item-color: rgba(149, 193, 245, 0.85);
+$sidebar-submenu-item-hover-color: rgb(149, 193, 245);
 $sidebar-logo-opacity: 0.5;
-$sidebar-submenu-item-bg-color: rgba(255, 255, 255, 0.2);
+$sidebar-submenu-item-bg-color: rgba(149, 193, 245, 0.2);
 
 $form-check-input-checked-color: #fff;
 $form-check-input-checked-bg-color: $blue1;
@@ -52,7 +52,7 @@ $zindex-dashboard-splash-screen: 39;
 $zindex-toast: 40;
 
 // Controls
-$control-checked-background-color: #00a99d !default;
-$control-checked-background-color-hover: #00a99d !default;
-$control-checked-background-color-active: #00a99d !default;
+$control-checked-background-color: #348cf6 !default;
+$control-checked-background-color-hover: #348cf6 !default;
+$control-checked-background-color-active: #348cf6 !default;
 $control-box-shadow: inset 0 0 0 1px #666 !default;

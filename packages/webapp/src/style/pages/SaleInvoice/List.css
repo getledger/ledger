@@ -1,0 +1,47 @@
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .balance.td .cell-inner > span {
+  font-weight: 600;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .overdue-status,
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .due-status {
+  display: block;
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .overdue-status + .partial-paid,
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .due-status + .partial-paid {
+  margin-top: 2px;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .overdue-status {
+  color: #ec5b0a;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .due-status {
+  color: #348cf6;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .partial-paid {
+  font-size: 12px;
+  line-height: 1;
+  display: block;
+  margin-bottom: 6px;
+  opacity: 0.7;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .fully-paid-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .fully-paid-icon svg {
+  fill: #2ba01d;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .fully-paid-text {
+  font-size: 13.5px;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .bp4-progress-bar {
+  height: 3px;
+  max-width: 180px;
+}
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .bp4-progress-bar,
+.dashboard__insider--sales-invoices-list .ledger-datatable .tbody .status.td .bp4-progress-bar .bp4-progress-meter {
+  border-radius: 0;
+}
+
+/*# sourceMappingURL=List.css.map */

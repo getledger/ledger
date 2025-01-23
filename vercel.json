@@ -1,6 +1,6 @@
 {
   "installCommand": "pnpm install",
-  "buildCommand": "pnpm run build:webapp",
+  "buildCommand": "CI='' pnpm run build:webapp",
   "outputDirectory": "packages/webapp/build",
   "rewrites": [{
       "source": "/api/:slug*",

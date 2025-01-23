@@ -67,11 +67,11 @@ export const AuthSubmitButton = styled(Button)`
   margin-top: 20px;
 
   &.bp4-intent-primary {
-    background-color: #0052cc;
+    background-color: #348cf6;
 
     &:disabled,
     &.bp4-disabled {
-      background-color: rgba(0, 82, 204, 0.4);
+      background-color: rgba(0, 169, 157, 0.4);
     }
   }
 `;

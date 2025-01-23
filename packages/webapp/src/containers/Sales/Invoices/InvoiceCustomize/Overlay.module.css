@@ -1,0 +1,18 @@
+.root {
+  position: relative;
+}
+.root.visible::before {
+  background: rgba(149, 193, 245, 0.75);
+  z-index: 2;
+}
+.root::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1000;
+}
+
+/*# sourceMappingURL=Overlay.module.css.map */
