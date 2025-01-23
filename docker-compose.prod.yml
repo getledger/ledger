@@ -18,7 +18,7 @@ services:
 
   webapp:
     container_name: ledger-webapp
-    image: getledger/webapp:develop
+    image: getledger/webapp:latest
     restart: on-failure
     networks:
       - ledger_network
