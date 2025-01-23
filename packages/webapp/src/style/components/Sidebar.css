@@ -1,0 +1,13 @@
+.sidebar .menu-item {
+  cursor: pointer;
+  position: relative;
+}
+.sidebar .menu-item.active .submenu {
+  display: block; /* Show submenu when active */
+}
+.sidebar .submenu {
+  display: none; /* Hide submenu by default */
+  padding-left: 20px; /* Indent submenu items */
+}
+
+/*# sourceMappingURL=Sidebar.css.map */
