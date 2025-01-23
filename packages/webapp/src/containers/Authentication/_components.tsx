@@ -67,7 +67,7 @@ export const AuthSubmitButton = styled(Button)`
   margin-top: 20px;
 
   &.bp4-intent-primary {
-    background-color: #00a99d;
+    background-color: #348cf6;
 
     &:disabled,
     &.bp4-disabled {

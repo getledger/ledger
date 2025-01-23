@@ -25,5 +25,5 @@ const TextStatusRoot = styled.span`
   ${(props) =>
     props.intent === 'primary' &&
     `
-  color: #00a99d;`}
+  color: #348cf6;`}
 `;

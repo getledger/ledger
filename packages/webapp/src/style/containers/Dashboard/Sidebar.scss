@@ -35,7 +35,7 @@
 
       &.ScrollbarsCustom-ThumbX,
       &.ScrollbarsCustom-ThumbY {
-        background: rgba(255, 255, 255, 0.25);
+        background: rgba(149, 193, 245, 0.25);
       }
     }
   }
@@ -67,7 +67,7 @@
         font-size: 15px;
 
         &:not([class*="bp4-intent-"]):not(.bp4-minimal) {
-          color: rgb(255, 255, 255);
+          color: rgb(149, 193, 245);
         }
 
         &:hover,
@@ -86,7 +86,7 @@
         }
 
         svg {
-          fill: rgba(255, 255, 255, 0.3);
+          fill: rgba(149, 193, 245, 0.3);
         }
       }
 
@@ -100,7 +100,7 @@
         display: block;
         font-size: 12px;
         margin-top: 8px;
-        color: rgba(255, 255, 255, 0.6);
+        color: rgba(149, 193, 245, 0.6);
       }
     }
 
@@ -121,7 +121,7 @@
     margin-top: auto;
     padding: 0 20px 20px;
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(149, 193, 245, 0.6);
   }
 
   &__inner {
@@ -164,7 +164,7 @@
       >.#{$ns}-icon-caret-right {
         margin-right: -4px;
         margin-top: 3px;
-        color: rgba(255, 255, 255, 0.25);
+        color: rgba(149, 193, 245, 0.25);
       }
 
       &-labeler {
@@ -191,7 +191,7 @@
     .#{$ns}-submenu {
       .#{$ns}-collapse {
         &-body {
-          background-color: rgba(255, 255, 255, 0.03);
+          background-color: rgba(149, 193, 245, 0.03);
           padding-bottom: 6px;
           padding-top: 6px;
         }
@@ -227,7 +227,7 @@
     }
 
     .#{$ns}-menu-divider {
-      border-top-color: rgba(255, 255, 255, 0.1);
+      border-top-color: rgba(149, 193, 245, 0.1);
       color: #6b708c;
       margin: 4px 0;
     }
@@ -308,7 +308,7 @@
 
     &:not([class*='bp4-intent-']):not(.bp4-minimal):not(:disabled) {
       .bp4-icon {
-        color: rgba(255, 255, 255, 0.4);
+        color: rgba(149, 193, 245, 0.4);
       }
 
       &,
@@ -320,10 +320,10 @@
       }
 
       &:hover {
-        background-color: rgba(255, 255, 255, 0.12);
+        background-color: rgba(149, 193, 245, 0.12);
 
         .bp4-icon {
-          color: rgba(255, 255, 255, 0.6);
+          color: rgba(149, 193, 245, 0.6);
         }
       }
     }

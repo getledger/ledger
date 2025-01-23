@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 export const ButtonLink = styled.button`
-  color: #00a99d;
+  color: #348cf6;
   border: 0;
   background: transparent;
   cursor: pointer;

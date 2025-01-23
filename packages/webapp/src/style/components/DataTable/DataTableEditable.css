@@ -1,0 +1,190 @@
+.datatable-editor .bp4-form-group {
+  margin-bottom: 0;
+}
+.datatable-editor .table {
+  border: 1px solid #d2dce2;
+  border-left: transparent;
+  background-color: #FFF;
+}
+.datatable-editor .table .th,
+.datatable-editor .table .td {
+  border-left: 1px solid #e2e2e2;
+}
+.datatable-editor .table .th.index,
+.datatable-editor .table .td.index {
+  text-align: center;
+}
+.datatable-editor .table .th.index span,
+.datatable-editor .table .td.index span {
+  width: 100%;
+  font-weight: 500;
+}
+.datatable-editor .table .th:first-child,
+.datatable-editor .table .td:first-child {
+  border-left: 1px solid #d2dce2;
+}
+.datatable-editor .table .thead .tr .th {
+  padding: 10px 10px;
+  background-color: #f0f2f8;
+  font-size: 14px;
+  color: #415060;
+  border-bottom: 1px solid #d2dce2;
+}
+.datatable-editor .table .thead .tr .th.index > div {
+  width: 100%;
+}
+.datatable-editor .table .tbody .tr .td {
+  padding: 4px;
+  border-bottom: 0;
+  border-top: 1px solid #d8d8d8;
+  min-height: 40px;
+}
+.datatable-editor .table .tbody .tr .td.index {
+  background-color: #f0f2f8;
+  color: #718294;
+}
+.datatable-editor .table .tbody .tr .td.index > span {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.datatable-editor .table .tbody .tr .td.landed-cost .bp4-control {
+  margin-top: 0;
+  margin-left: 34px;
+}
+.datatable-editor .table .tbody .tr .td.landed-cost .bp4-control-indicator {
+  height: 18px;
+  width: 18px;
+  border-color: #dbdbdb;
+}
+.datatable-editor .table .tbody .tr .bp4-form-group:not(.bp4-intent-danger) .bp4-input,
+.datatable-editor .table .tbody .tr .form-group--select-list .bp4-button {
+  border-color: #ffffff;
+  color: #222;
+  border-radius: 3px;
+}
+.datatable-editor .table .tbody .tr .bp4-form-group:not(.bp4-intent-danger) .bp4-input {
+  border-radius: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.datatable-editor .table .tbody .tr .bp4-form-group:not(.bp4-intent-danger) .bp4-input:focus {
+  box-shadow: 0 0 0 2px #348cf6;
+}
+.datatable-editor .table .tbody .tr .form-group--select-list .bp4-button {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.datatable-editor .table .tbody .tr .form-group--select-list .bp4-button:after {
+  display: none;
+}
+.datatable-editor .table .tbody .tr .form-group--select-list.bp4-intent-danger .bp4-button:not(.bp4-minimal),
+.datatable-editor .table .tbody .tr .form-group--select-list.bp4-intent-danger .bp4-input,
+.datatable-editor .table .tbody .tr .bp4-form-group.bp4-intent-danger .bp4-button:not(.bp4-minimal),
+.datatable-editor .table .tbody .tr .bp4-form-group.bp4-intent-danger .bp4-input {
+  border-color: #f7b6b6;
+}
+.datatable-editor .table .tbody .tr:first-of-type .td {
+  border-top: 0;
+}
+.datatable-editor .table .tbody .tr .td.actions .bp4-button {
+  background-color: transparent;
+  color: #e66d6d;
+}
+.datatable-editor .table .tbody .tr .td.actions .bp4-button:hover {
+  color: #c23030;
+}
+.datatable-editor .table .tbody .tr .td.actions .bp4-button svg {
+  color: inherit;
+}
+.datatable-editor .table .tbody .tr.row--total .account.td > span,
+.datatable-editor .table .tbody .tr.row--total .debit.td > span,
+.datatable-editor .table .tbody .tr.row--total .credit.td > span {
+  padding-top: 2px;
+}
+.datatable-editor .table .tbody .tr .td.note .bp4-form-group {
+  width: 100%;
+}
+.datatable-editor .table .tfooter .td {
+  min-height: 38px;
+}
+.datatable-editor .table .th {
+  color: #444;
+  font-weight: 600;
+  border-bottom: 1px dotted #666;
+}
+.datatable-editor .table .td {
+  border-bottom: 1px dotted #999;
+}
+.datatable-editor .table .actions.td .bp4-button {
+  background: transparent;
+  margin: 0;
+}
+.datatable-editor .table .tbody .quantity,
+.datatable-editor .table .tbody .quantity input,
+.datatable-editor .table .tbody .rate,
+.datatable-editor .table .tbody .rate input,
+.datatable-editor .table .tbody .discount,
+.datatable-editor .table .tbody .discount input,
+.datatable-editor .table .tbody .total,
+.datatable-editor .table .tbody .total input,
+.datatable-editor .table .thead .quantity,
+.datatable-editor .table .thead .quantity input,
+.datatable-editor .table .thead .rate,
+.datatable-editor .table .thead .rate input,
+.datatable-editor .table .thead .discount,
+.datatable-editor .table .thead .discount input,
+.datatable-editor .table .thead .total,
+.datatable-editor .table .thead .total input,
+.datatable-editor .table .tfooter .quantity,
+.datatable-editor .table .tfooter .quantity input,
+.datatable-editor .table .tfooter .rate,
+.datatable-editor .table .tfooter .rate input,
+.datatable-editor .table .tfooter .discount,
+.datatable-editor .table .tfooter .discount input,
+.datatable-editor .table .tfooter .total,
+.datatable-editor .table .tfooter .total input {
+  text-align: right;
+}
+.datatable-editor .table .tbody .tr .td.actions .bp4-button {
+  background-color: transparent;
+  color: #e66d6d;
+}
+.datatable-editor .table .tbody .tr .td.actions .bp4-button svg {
+  color: inherit;
+}
+.datatable-editor__actions {
+  margin-top: 12px;
+}
+.datatable-editor__actions .bp4-button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.datatable-editor__actions .button--clear-lines.bp4-button:not([class*=bp4-intent-]):not(.bp4-minimal) {
+  background-color: #fcefef;
+}
+.datatable-editor__actions .button--clear-lines.bp4-button:not([class*=bp4-intent-]):not(.bp4-minimal):hover {
+  background-color: #f8e4e4;
+}
+.datatable-editor .tfooter .debit.td > span,
+.datatable-editor .tfooter .credit.td > span {
+  font-weight: 600;
+  color: #444;
+}
+.datatable-editor .tfooter .td {
+  border-top-width: 2px;
+  border-top-color: #e9e9ef;
+  border-top-style: solid;
+  min-height: 40px;
+  font-weight: 500;
+}
+.datatable-editor .tfooter .td:not(.index) {
+  background-color: #fcfcfd;
+}
+.datatable-editor .tfooter .td:first-of-type {
+  background-color: #f0f2f8;
+}
+.datatable-editor .tfooter .td.index span {
+  display: none;
+}
+
+/*# sourceMappingURL=DataTableEditable.css.map */

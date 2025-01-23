@@ -163,7 +163,7 @@ export default function PaymentReceiveHeaderFields() {
                   font-size: 12px;
                   margin-top: 4px;
                   background-color: transparent;
-                  color: #00a99d;
+                  color: #348cf6;
 
                   &:hover {
                     text-decoration: underline;

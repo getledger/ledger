@@ -1,0 +1,74 @@
+body.page-payment-made-new .dashboard__footer,
+body.page-payment-made-edit .dashboard__footer {
+  display: none;
+}
+
+.dashboard__insider--payment-made {
+  padding-bottom: 64px;
+}
+
+.page-form--payment-made .page-form__header .bp4-label {
+  min-width: 160px;
+}
+.page-form--payment-made .page-form__header .bp4-form-content {
+  width: 100%;
+}
+.page-form--payment-made .page-form__header .bp4-form-group {
+  margin-bottom: 18px;
+}
+.page-form--payment-made .page-form__header .bp4-form-group.bp4-inline {
+  max-width: 470px;
+}
+.page-form--payment-made .page-form__header .bp4-form-group button.receive-full-amount {
+  width: auto;
+  padding: 0;
+  min-height: auto;
+  font-size: 12px;
+  margin-top: 4px;
+  background-color: transparent;
+  color: #348cf6;
+}
+.page-form--payment-made .page-form__header .bp4-form-group button.receive-full-amount:hover {
+  text-decoration: underline;
+}
+.page-form--payment-made .page-form__primary-section {
+  display: flex;
+  padding-bottom: 2px;
+}
+.page-form--payment-made .page-form__big-numbers {
+  margin-left: auto;
+  padding-right: 10px;
+}
+.page-form--payment-made .datatable-editor .table .tbody .tr.no-results .td {
+  font-size: 15px;
+  padding: 26px 0;
+  color: #5a5a77;
+}
+.page-form--payment-made .datatable-editor .table .th.amount,
+.page-form--payment-made .datatable-editor .table .th.amount input, .page-form--payment-made .datatable-editor .table .th.due_amount,
+.page-form--payment-made .datatable-editor .table .th.due_amount input, .page-form--payment-made .datatable-editor .table .th.payment_amount,
+.page-form--payment-made .datatable-editor .table .th.payment_amount input,
+.page-form--payment-made .datatable-editor .table .td.amount,
+.page-form--payment-made .datatable-editor .table .td.amount input,
+.page-form--payment-made .datatable-editor .table .td.due_amount,
+.page-form--payment-made .datatable-editor .table .td.due_amount input,
+.page-form--payment-made .datatable-editor .table .td.payment_amount,
+.page-form--payment-made .datatable-editor .table .td.payment_amount input {
+  text-align: right;
+}
+.page-form--payment-made .datatable-editor .table .tr .td:first-of-type span, .page-form--payment-made .datatable-editor .table .tr .td:first-of-type div,
+.page-form--payment-made .datatable-editor .table .tr .th:first-of-type span,
+.page-form--payment-made .datatable-editor .table .tr .th:first-of-type div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-form--payment-made .page-form__footer .form-group--statement {
+  max-width: 500px;
+  width: 100%;
+}
+.page-form--payment-made .page-form__footer .form-group--statement textarea {
+  width: 100%;
+  min-height: 70px;
+}
+
+/*# sourceMappingURL=PageForm.css.map */

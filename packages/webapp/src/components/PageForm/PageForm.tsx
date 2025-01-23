@@ -62,7 +62,7 @@ const footerActionsStyle = `
         margin-right: 0;
 
         &.bp4-intent-primary{
-          border-right: 1px solid rgba(255, 255, 255, 0.3);
+          border-right: 1px solid rgba(149, 193, 245, 0.3);
         }
       }
     }

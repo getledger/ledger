@@ -135,6 +135,6 @@ const PaymentOptionsButton = styled(Button)`
   margin-left: 4px;
 
   &.bp4-minimal.bp4-intent-primary {
-    color: #00a99d;
+    color: #348cf6;
   }
 `;
