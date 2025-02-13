@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ledger-app
+  namespace: ledger
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ledger
+  template:
+    metadata:
+      labels:
+        app: ledger
+    spec:
+      containers:
+      - name: webapp
+        image: getledger/webapp:latest
+        ports:
+        - containerPort: 80
+      - name: server
+        image: getledger/server:latest
+        ports:
+        - containerPort: 3000
+      # Add other containers as needed
